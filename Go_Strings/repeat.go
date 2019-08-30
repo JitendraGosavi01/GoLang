@@ -4,10 +4,10 @@ import "reflect"
 import "strings"
 func main(){
 	//string array initalization
-	var str = []string {"HELLO", "WORLD"}
+	var str string = "HELLO WORLD "
 	fmt.Println("Default string:",str)
-	//string conversion to UPPER Letters
-	fmt.Println("Joined string:",strings.Join(str, "=*="))
+	//string repeatation 3 times
+	fmt.Println("Repeated string:",strings.Repeat(str, 3)) //Repeated string: HELLO WORLD HELLO WORLD HELLO WORLD
 	//find type of string
 	fmt.Println("Type:",reflect.TypeOf(str))
 }
