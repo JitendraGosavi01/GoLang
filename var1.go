@@ -1,8 +1,5 @@
 package main
 import "fmt"
-
-
-
 func main(){
 	var e float64 = 5.2
 	var f float64 = 2.5
